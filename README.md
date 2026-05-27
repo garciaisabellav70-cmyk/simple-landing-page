@@ -4,7 +4,7 @@ Responsive landing page project using HTML and CSS.
 
 ## Technologies
 - HTML5
-- CSS3
+- CSS
 
 ## What I Learned
 - Flexbox
