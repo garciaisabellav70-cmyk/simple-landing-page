@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple landing page</title>
+
+    <style>
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+      }
+
+      header {
+        background-color: #f3b0e8;
+        color: white;
+        padding: 20px;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      nav ul {
+        display: flex;
+        gap: 20px;
+        list-style: none;
+      }
+
+      .hero {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 400px;
+        padding: 20px;
+      }
+
+      .hero h1 {
+        font-size: 48px;
+        margin-bottom: 20px;
+      }
+
+      .hero p {
+        font-size: 18px;
+        margin-bottom: 20px;
+      }
+
+      .hero button {
+        padding: 12px 24px;
+        border: none;
+        border-radius: 8px;
+        background-color: #8ea4c2;
+        color: white;
+        font-size: 16px;
+      }
+
+      .features {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding: 40px 20px;
+        flex-wrap: wrap;
+      }
+
+      .card {
+        background-color: white;
+        width: 250px;
+        padding: 20px;
+        border-radius: 12px;
+        text-align: center;
+      }
+
+      footer {
+        background-color: #e28ad6;
+        color: white;
+        text-align: center;
+        padding: 20px;
+      }
+
+      @media (max-width: 768px) {
+        nav {
+          flex-direction: column;
+          gap: 10px;
+        }
+
+        .hero h1 {
+          font-size: 36px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <h2>Website</h2>
+
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Projects</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h1>Future full stack developer</h1>
+
+      <p>
+        Learning HTML, CSS, JavaScript, Git, etc.
+      </p>
+
+      <button>View projects</button>
+    </section>
+
+    <section class="features">
+      <div class="card">
+        <h3>HTML</h3>
+
+        <p>Building the structure of web pages</p>
+      </div>
+
+      <div class="card">
+        <h3>CSS</h3>
+
+        <p>Creating beautiful and responsivee layouts</p>
+      </div>
+
+      <div class="card">
+        <h3>JavaScript</h3>
+
+        <p>Adding logic and interactivity to websites</p>
+      </div>
+    </section>
+
+    <footer>
+      <p>2026 - Simple Landing Page</p>
+    </footer>
+  </body>
+</html>
+```
